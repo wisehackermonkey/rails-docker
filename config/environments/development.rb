@@ -1,4 +1,7 @@
 Rails.application.configure do
+  # Rack middleware to inject the livereload script into the HTML being served from rails server.
+  config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
+  config.web_console.whitelisted_ips = '192.168.99.1/16'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
