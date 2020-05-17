@@ -1,6 +1,6 @@
 # README
 
-##  rails-docker is a tutorial project inorder to run rails within docker and use ci and herok
+###  rails-docker is a tutorial project inorder to run rails within docker and use ci and heroku
 ```text
 by Oran C
 oranbusiness@gmail.com
